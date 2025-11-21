@@ -70,7 +70,7 @@ async function processPDFWithOpenAI(buffer: Buffer, fileName: string) {
     console.log('Uploading PDF to OpenAI...');
     
     // Create a File object from the buffer
-    const blob = new Blob([buffer], { type: 'application/pdf' });
+    const blob = new Blob([buffer as any], { type: 'application/pdf' });
     const fileToUpload = new File([blob], fileName, { type: 'application/pdf' });
     
     const uploadedFile = await openai.files.create({
