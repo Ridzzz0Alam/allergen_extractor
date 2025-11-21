@@ -592,44 +592,6 @@ A: Yes! It recognizes various international formats including EU, US, and other 
 
 ---
 
-## Getting Help
-
-### Need Support?
-
-If you encounter issues not covered in this guide:
-
-**Contact Information:**
-- **Email Support:** support@yourcompany.com
-- **Help Desk:** Available Monday-Friday, 9 AM - 5 PM
-- **Documentation:** Visit our knowledge base at docs.yourcompany.com
-
-### When Contacting Support, Include:
-
-1. **Description of the issue**
-   - What you were trying to do
-   - What happened instead
-   - Error messages (if any)
-
-2. **Your environment**
-   - Browser name and version
-   - Operating system
-   - File type and size
-
-3. **Sample file** (if possible)
-   - Helps reproduce the issue
-   - Redact sensitive information if needed
-   - Provide screenshot of error
-
-### Feedback and Suggestions
-
-We value your feedback! Help us improve by:
-- Reporting bugs or errors
-- Suggesting new features
-- Sharing use cases
-- Providing sample documents for testing
-
----
-
 ## Appendix: Example Workflows
 
 ### Workflow 1: Single Product Analysis
@@ -704,8 +666,6 @@ We value your feedback! Help us improve by:
 This documentation is designed to help you work efficiently and accurately. For the latest updates and additional resources, visit our support portal.
 
 ---
-
-*Document prepared for end-users of the Allergen & Nutrition Extractor application. For technical documentation, please refer to the Developer Documentation.*
 
 
 
@@ -865,31 +825,6 @@ npm run dev
 ```
 http://localhost:3000
 ```
-
-### Dependencies
-
-**Core Dependencies:**
-```json
-{
-  "next": "^15.x",
-  "react": "^18.x",
-  "react-dom": "^18.x",
-  "openai": "^4.x",
-  "typescript": "^5.x"
-}
-```
-
-**Development Dependencies:**
-```json
-{
-  "tailwindcss": "^3.x",
-  "eslint": "^8.x",
-  "@types/node": "^20.x",
-  "@types/react": "^18.x"
-}
-```
-
----
 
 ## Project Structure
 
