@@ -11,15 +11,15 @@
   "dependencies": {
     "canvas": "^3.2.0",
     "multer": "^2.0.2",
-    "next": "16.0.3",
+    "next": "16.1.1",
     "openai": "^6.9.1",
     "pdf-lib": "^1.17.1",
     "pdf-parse": "^2.4.5",
     "pdf-poppler": "^0.2.3",
     "pdf-to-img": "^5.0.0",
     "pdf2pic": "^3.2.0",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
     "sharp": "^0.34.5",
     "tesseract.js": "^6.0.1"
   },
